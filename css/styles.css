@@ -21,6 +21,8 @@ ul {
 
 img {
     display: block;
+    max-width: 100%; 
+    height: auto;
 }
 
 .container {
@@ -361,6 +363,20 @@ body {
 
 /* --------Filter----------- */
 
+.filter {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.filter-list {
+    display: flex;
+    align-items: center;
+}
+
+.filter-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .filter-btn {
     font-family: inherit;
     font-weight: 500;
@@ -369,6 +385,11 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-title-color);
+    min-width: 73px;
+    min-height: 38px;
+    border: 0;
+    padding: 6px 22px;
+    border-radius: 4px;
 
     cursor: pointer;
 }
