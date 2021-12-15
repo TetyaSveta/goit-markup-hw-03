@@ -22,12 +22,14 @@
                 <li class="header-item"><a class="link header-link" href="">Контакты</a></li>
             </ul>
         </nav>
+            <div class="header-connect">
             <ul class="list header-list">
                 <li class="header-contacts">
                     <a class="link header-email-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     <a class="link header-tel-link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
+            </div>
         </div>
     </header>
     <main>
@@ -54,16 +56,23 @@
             </ul>
             </div>
             <!--Портфолио-->
+            <div class="container portfolio-container">
             <ul class="portfolio-list list">
                 <li class="portfolio-item">
-                    <img 
-                    src="./images/img-studio-1.jpg" 
-                    alt="технохряк"
-                    width="370"
-                    height="294"
-                    />
-                    <h3 class="portfolio-item-title">Технохряк</h3>
-                    <p class="portfolio-item-text">Веб-сайт</p>
+                    <article class="card">
+                        <div class="card-tumbs">
+                            <img 
+                            src="./images/img-studio-1.jpg" 
+                            alt="технохряк"
+                            width="370"
+                            height="294"
+                            />
+                            <div class="portfolio-content">
+                            <h3 class="portfolio-item-title">Технохряк</h3>
+                            <p class="portfolio-item-text">Веб-сайт</p>
+                            </div>
+                        </div>
+                    </article>
                 </li>
                 <li class="portfolio-item">
                     <img 
@@ -146,6 +155,7 @@
                     <p class="portfolio-item-text">Приложение</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
