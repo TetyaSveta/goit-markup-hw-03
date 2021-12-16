@@ -411,30 +411,24 @@ body {
     margin-bottom: -30px;
 }
 
-.card {
-    box-shadow: #EEEEEE;
-}
-
 .portfolio-item {
     flex-basis: calc(100% \ 3 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
 }
 
-.portfolio-item * {
-    outline: 1px solid tomato;
-}
-
 .portfolio-content {
     padding: 20px 24px 20px 24px;
+    border: 1px solid #EEEEEE;
 }
 
 .portfolio-item-title {
     font-weight: bold;
     font-size: 18px;
-    line-height: 0.2;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-title-color);
+    margin-bottom: 4px;
 }
 
 .portfolio-item-text {
