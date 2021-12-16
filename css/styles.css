@@ -254,7 +254,7 @@ body {
 }
 
 .team-item {
-    flex-basis: calc(100% \ 4 - 30px);
+    flex-basis: calc(100% / 4 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
 }
