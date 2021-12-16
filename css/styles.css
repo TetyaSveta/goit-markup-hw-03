@@ -412,7 +412,7 @@ body {
 }
 
 .portfolio-item {
-    flex-basis: calc(100% \ 3 - 30px);
+    flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
 }
@@ -420,6 +420,7 @@ body {
 .portfolio-content {
     padding: 20px 24px 20px 24px;
     border: 1px solid #EEEEEE;
+    border-top: 0;
 }
 
 .portfolio-item-title {
